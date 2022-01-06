@@ -16,6 +16,7 @@
 		ECBE14D32787671D002904B1 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE14D22787671D002904B1 /* Prospect.swift */; };
 		ECBE14D627876E5D002904B1 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = ECBE14D527876E5D002904B1 /* CodeScanner */; };
 		ECBE14D827878C28002904B1 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE14D727878C28002904B1 /* ImageSaver.swift */; };
+		ECBE14DA2787A7EC002904B1 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE14D92787A7EC002904B1 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ECBE14D027876549002904B1 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		ECBE14D22787671D002904B1 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		ECBE14D727878C28002904B1 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSaver.swift; path = ../../Instafilter/Instafilter/ImageSaver.swift; sourceTree = "<group>"; };
+		ECBE14D92787A7EC002904B1 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				ECBE14CE27876541002904B1 /* ProspectsView.swift */,
 				ECBE14D027876549002904B1 /* MeView.swift */,
 				ECBE14D22787671D002904B1 /* Prospect.swift */,
+				ECBE14D92787A7EC002904B1 /* FileManager-DocumentsDirectory.swift */,
 				ECBE14D727878C28002904B1 /* ImageSaver.swift */,
 				EC57B32127867529006F80AD /* Assets.xcassets */,
 				EC57B32327867529006F80AD /* Preview Content */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECBE14D127876549002904B1 /* MeView.swift in Sources */,
+				ECBE14DA2787A7EC002904B1 /* FileManager-DocumentsDirectory.swift in Sources */,
 				ECBE14D827878C28002904B1 /* ImageSaver.swift in Sources */,
 				ECBE14D32787671D002904B1 /* Prospect.swift in Sources */,
 				ECBE14CF27876541002904B1 /* ProspectsView.swift in Sources */,
