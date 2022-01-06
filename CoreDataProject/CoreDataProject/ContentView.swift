@@ -17,6 +17,7 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(
         sortDescriptors: [],
+            //[SortDescriptor(\.name, order: .reverse)]
         predicate: NSPredicate(format: "NOT name BEGINSWITH[c] %@", "e")
             //NSPredicate(format: "name BEGINSWITH[c] %@", "e")
             //NSPredicate(format: "name BEGINSWITH %@", "E")

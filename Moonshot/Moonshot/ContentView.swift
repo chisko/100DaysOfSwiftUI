@@ -58,6 +58,7 @@ struct GridLayout: View {
                                 .scaledToFit()
                                 .frame(width: 100, height: 100)
                                 .padding()
+                                .accessibilityLabel("The mission badge for \(mission.displayName)")
                             
                             VStack {
                                 Text(mission.displayName)
@@ -100,6 +101,7 @@ struct ListLayout: View {
                         .scaledToFit()
                         .frame(width: 40, height: 40)
                         .padding()
+                        .accessibilityLabel("The mission badge for \(mission.displayName)")
 
                     VStack(alignment: .leading) {
                         Text(mission.displayName)
